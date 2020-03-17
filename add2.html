@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multiplication Table Generator</title>
+
+<script language="javascript" type="text/javascript">
+function generateTable()
+{
+var myVar = 5;
+var myString = "";
+for (i=1; i<=10; i++) {
+myString += i+ " x " +myVar+ " = " +(i*myVar)+ "<br/>";
+}
+document.write(myString);
+}
+</script>
+</head>
+<body>
+<a href="javascript:generateTable()">Create New Table</a>
+</body>
+</html> 
+ 
